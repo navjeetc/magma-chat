@@ -114,3 +114,5 @@ group :production do
   gem "judoscale-sidekiq"
   gem 'scout_apm'
 end
+
+gem "dockerfile-rails", ">= 1.2", :group => :development
