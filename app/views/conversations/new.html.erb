@@ -49,7 +49,7 @@
   <% end %>
 </div>
 
-<div class="hidden">
+<div class="">
   <%= form_with model: @conversation do |f| %>
     <%= f.hidden_field :bot_id %>
     <%= f.text_field :first_message, class: "w-full rounded-md bg-gray-700 text-white", data: { controller: "conversation focus", action: "change->conversation#submit" } %>

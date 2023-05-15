@@ -45,4 +45,4 @@ docker-compose.yml
 # Simplecov gem coverage results
 coverage
 deploy.yml
-config/database.yml
+# config/database.yml
