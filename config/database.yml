@@ -82,6 +82,7 @@ test:
 #
 production:
   <<: *default
+  host: localhost
   database: db_0c35f5d19c54
   username: user_5db593e5e62c
   password: <%= ENV["MAGMA_CHAT_DATABASE_PASSWORD"] %>
